@@ -1,4 +1,4 @@
-# Records
+# Record Classes and Interfaces
 
 * Java 16 (previewed in JDKs 14 and 15)
 * [JEP 395](https://openjdk.java.net/jeps/395)

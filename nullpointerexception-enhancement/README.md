@@ -1,4 +1,4 @@
-# NullPointerException Enhancement
+# `NullPointerException` Enhancement
 
 * Java 14
 * [JEP 358](https://openjdk.java.net/jeps/358)

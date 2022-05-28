@@ -1,4 +1,4 @@
-# Pattern Matching for instanceof
+# Pattern Matching for `instanceof`
 
 * Java 16 (previewed in JDKs 14 and 15)
 * [JEP 394](https://openjdk.java.net/jeps/394)
