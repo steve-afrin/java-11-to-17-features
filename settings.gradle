@@ -1,0 +1,9 @@
+rootProject.name = 'java-11-to-17-features'
+include 'switch-expressions'
+include 'text-blocks'
+include 'nullpointerexception-enhancement'
+include 'records'
+include 'pattern-matching-instanceof'
+include 'days-periods'
+include 'sealed-classes'
+

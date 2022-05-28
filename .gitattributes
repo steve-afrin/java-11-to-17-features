@@ -1,0 +1,17 @@
+*               text=auto
+
+# Java sources
+*.java          text diff=java
+*.gradle        text diff=java
+*.gradle.kts    text diff=java
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.config        text
+*.css           text diff=css
+*.htm           text diff=html
+*.html          text diff=html
+*.js            text
+*.json          text
+*.md            text diff=markdown
+*.properties    text
+*.xml           text
