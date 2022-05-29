@@ -26,3 +26,8 @@ value from a switch expression.
 Run the `QuarterEnumTest` class in the `org.example` package and
 observe that all the tests pass the assertion of the expected
 `QuarterEnum` value for the provided `Month` value.
+
+Contrast and compare the ease of use between the older style
+`switch` statement as illustrated in code in the
+`QuarterEnumSwitchStatement` class and the newer style `switch`
+expression as illustrated in the `QuarterEnum` class.
