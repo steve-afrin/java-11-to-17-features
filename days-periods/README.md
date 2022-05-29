@@ -33,6 +33,7 @@ pattern.
 
 ## To use this module
 
-Run the unit test in this module to see examples of time of day
-output without and with the 'B' pattern to see how the output
+Run the `DayTimeExample` class in the `org.example` package and
+observe the output in the logs to see examples of time of day
+output with and without the 'B' pattern to see how the output
 changes for _days periods_.

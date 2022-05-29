@@ -20,3 +20,9 @@ expression, and so that both forms can use either traditional
 `case ... :` labels (with fall through) or new `case ... ->` labels
 (with no fall through), with a further new statement for yielding a
 value from a switch expression.
+
+## To use this module
+
+Run the `QuarterEnumTest` class in the `org.example` package and
+observe that all the tests pass the assertion of the expected
+`QuarterEnum` value for the provided `Month` value.

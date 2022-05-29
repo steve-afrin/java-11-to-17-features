@@ -8,5 +8,5 @@ string literal that avoids the need for most escape sequences,
 automatically formats the string in a predictable way, and gives the
 developer control over the format when desired.
 
-- Does the String#index(int) work with text blocks?
+- Does the String#indent(int) work with text blocks?
 - Use JSON as an example of a good case for a text block
