@@ -15,3 +15,10 @@ defined by the definition of the record class.
 Enhance the Java programming language with records, which are
 classes that act as transparent carriers for immutable data. Records
 can be thought of as nominal tuples.
+
+## To use this module
+
+Run the `RecordsTest` class in the `org.example` package and observe
+that all the assertions pass indicating the proper and successful
+execution of equals(Object), hashCode(), and toString() methods for
+record classes.

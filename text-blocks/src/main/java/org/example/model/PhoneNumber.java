@@ -27,6 +27,6 @@ public class PhoneNumber {
 
   @Override
   public String toString() {
-    return String.format("(%s) %s-%s (%s)", this.areaCode, this.prefix, this.number, this.type);
+    return String.format("%s-%s-%s (%s)", this.areaCode, this.prefix, this.number, this.type);
   }
 }
