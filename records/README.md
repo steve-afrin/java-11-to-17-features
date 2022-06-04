@@ -20,5 +20,5 @@ can be thought of as nominal tuples.
 
 Run the `RecordsTest` class in the `org.example` package and observe
 that all the assertions pass indicating the proper and successful
-execution of equals(Object), hashCode(), and toString() methods for
-record classes.
+execution of `equals(Object)`, `hashCode()`, and `toString()`
+methods for record classes.

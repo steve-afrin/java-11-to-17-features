@@ -33,7 +33,7 @@ class CalculatorTest {
   @ParameterizedTest(name = "Validate NullPointerException message for {0}")
   @MethodSource
   void testCompute(
-      final String nullVariable,
+      final String testDescription,
       final AtomicLong a,
       final AtomicLong b,
       final AtomicLong c,
