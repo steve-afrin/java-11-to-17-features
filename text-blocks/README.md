@@ -8,7 +8,15 @@ string literal that avoids the need for most escape sequences,
 automatically formats the string in a predictable way, and gives the
 developer control over the format when desired.
 
-- Does the String#indent(int) work with text blocks?
+* The new `indent()` function on the `String` class works with text
+  blocks and adds the indentation to each individual line of the
+  text block.
+* Text blocks can be a great way to _templatize_ multiline JSON,
+  SQL, or XML using the `format()` function on the `String` class.
+* A text block can be a nice way to use a multiline SQL statement to
+  create a JDBC `PreparedStatement` instance.
+* Any method that works on a `String` instance works on a text block
+  because a text block is just a multiline `String` instance.
 
 ## To use this module
 

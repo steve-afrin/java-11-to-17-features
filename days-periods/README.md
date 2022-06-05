@@ -31,6 +31,26 @@ There's only am/pm pattern symbol 'a' is available in the
 day periods beyond am/pm, which is compatible with CLDR's 'B'
 pattern.
 
+## Default CLDR day periods
+
+CLDR is intended for internationalization of day period data, so
+time ranges and text obviously will change among different languages
+and different locales.
+
+Since I'm American and perform all my development exclusively in
+English, I nearly always use the **en_US** locale. As such, here
+are the default CLDR day periods and time ranges for those day
+periods delivered by default with Java 17 for the **en_US** locale:
+
+| Day Period | Time or Time Range  |
+|------------|---------------------|
+| Midnight   | 12:00 am            |
+| Noon       | 12:00 pm            |
+| Morning    | 6:00 am to 12:00 pm |
+| Afternoon  | 12:00 pm to 6:00 pm |
+| Evening    | 6:00 pm to 9:00 pm  |
+| Night      | 9:00 pm to 6:00 am  |
+
 ## To use this module
 
 Run the `DayTimeExample` class in the `org.example` package and
