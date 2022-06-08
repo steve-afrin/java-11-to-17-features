@@ -2,6 +2,8 @@
 
 * Java 15 (previewed in JDKs 13 and 14)
 * [JEP-378](https://openjdk.java.net/jeps/378)
+* [Java Multi-line String
+(Baeldung)](https://www.baeldung.com/java-multiline-string)
 
 Add text blocks to the Java language. A text block is a multi-line
 string literal that avoids the need for most escape sequences,

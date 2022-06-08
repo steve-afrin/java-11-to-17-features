@@ -2,6 +2,8 @@
 
 * Java 14
 * [JEP 358](https://openjdk.java.net/jeps/358)
+* [Helpful NullPointerExceptions in Java 14
+(Baeldung)](https://www.baeldung.com/java-14-nullpointerexception)
 
 Since the original days of Java, the `NullPointerException` has been
 one of the most common runtime exceptions thrown and sometimes among

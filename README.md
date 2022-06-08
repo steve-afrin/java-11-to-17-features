@@ -15,11 +15,10 @@ the feature covered by that module.
 The modules for new features in Java 17 presented in this project
 are:
 
-* Days Periods Support
-* `NullPointerException` enhancement
-* Pattern Matching for `instanceof`
-* Record Classes and Interfaces
-* Sealed Classes
-* Switch Expressions
-* Text Blocks
-
+* [Days Periods Support](days-periods/README.md)
+* [`NullPointerException` enhancement](nullpointerexception-enhancement/README.md)
+* [Pattern Matching for `instanceof`](pattern-matching-instanceof/README.md)
+* [Record Classes and Interfaces](records/README.md)
+* [Sealed Classes](sealed-classes/README.md)
+* [`switch` Expressions](switch-expressions/README.md)
+* [Text Blocks](text-blocks/README.md)

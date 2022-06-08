@@ -2,6 +2,8 @@
 
 * Java 16 (previewed in JDKs 14 and 15)
 * [JEP 395](https://openjdk.java.net/jeps/395)
+* [Java 14 Record Keyword
+(Baeldung)](https://www.baeldung.com/java-record-keyword)
 
 Reduces a bunch of boilerplate code that is just not necessary for
 transparent carriers of immutable data.

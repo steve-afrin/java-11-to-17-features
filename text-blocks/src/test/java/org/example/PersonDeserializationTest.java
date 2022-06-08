@@ -3,6 +3,7 @@ package org.example;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.model.Person;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -60,5 +61,16 @@ class PersonDeserializationTest {
     assertEquals("South Jordan", person.getHome().getCity());
     assertEquals("UT", person.getHome().getState());
     assertEquals("84095-1234", person.getHome().getZipCode());
+  }
+
+  @Test
+  @DisplayName("Test indent() on a text block")
+  void testIndent() {
+    System.out.println("Before using the indent() method ...");
+    System.out.printf("\"\"\"\n%s\"\"\"\n", PERSON_JSON);
+    System.out.println("\nAfter the invocation of indent(-5) ...");
+    System.out.printf("\"\"\"\n%s\"\"\"\n", PERSON_JSON.indent(-5));
+    System.out.println("\nAfter the invocation of indent(20) ...");
+    System.out.printf("\"\"\"\n%s\"\"\"\n", PERSON_JSON.indent(20));
   }
 }
