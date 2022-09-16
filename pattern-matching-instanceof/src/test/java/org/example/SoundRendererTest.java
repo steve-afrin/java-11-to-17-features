@@ -12,7 +12,7 @@ class SoundRendererTest {
   private SoundRenderer soundRenderer;
 
   @BeforeEach
-  private void setup() {
+  void setup() {
     soundRenderer = new SoundRenderer();
   }
 
